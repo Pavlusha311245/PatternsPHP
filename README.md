@@ -24,7 +24,7 @@ The project includes the following design patterns:
 
 3. **Behavioral Patterns**
     * Chain of Responsibility ❌
-    * Command ❌
+    * Command ✅
     * Iterator ❌
     * Mediator ❌
     * Memento ❌

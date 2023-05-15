@@ -8,13 +8,17 @@ class Singleton
 
     protected function __construct()
     {
-
+        //
     }
 
     protected function clone()
     {
+        //
     }
 
+    /**
+     * @throws \Exception
+     */
     public function __wakeup()
     {
         throw new \Exception("Impossible to unserialize singleton");

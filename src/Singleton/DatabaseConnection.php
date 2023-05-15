@@ -2,8 +2,6 @@
 
 namespace Pavlusha\Singleton;
 
-require 'Singleton.php';
-
 /**
  * Basic example of using this pattern in a project
  */

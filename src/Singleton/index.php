@@ -2,7 +2,7 @@
 
 namespace Pavlusha\Singleton;
 
-require 'DatabaseConnection.php';
+require '../../vendor/autoload.php';
 
 use Pavlusha\Singleton\DatabaseConnection;
 

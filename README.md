@@ -7,8 +7,8 @@ This project is a collection of design patterns, examples on how to use them, an
 The project includes the following design patterns:
 
 1. **Creational Patterns**
-    * Singleton ❌
-    * Factory Method ❌
+    * Singleton ✅
+    * Factory Method ✅
     * Abstract Factory ❌
     * Builder ❌
     * Prototype ❌

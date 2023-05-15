@@ -10,7 +10,7 @@ The project includes the following design patterns:
     * Singleton ✅
     * Factory Method ✅
     * Abstract Factory ❌
-    * Builder ❌
+    * Builder ✅
     * Prototype ❌
 
 2. **Structural Patterns**

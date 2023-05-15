@@ -11,7 +11,7 @@ The project includes the following design patterns:
     * Factory Method ✅
     * Abstract Factory ❌
     * Builder ✅
-    * Prototype ❌
+    * Prototype ✅
 
 2. **Structural Patterns**
     * Adapter ✅

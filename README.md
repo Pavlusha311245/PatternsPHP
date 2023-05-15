@@ -18,7 +18,7 @@ The project includes the following design patterns:
     * Bridge ❌
     * Composite ❌
     * Decorator ✅
-    * Facade ❌
+    * Facade ✅
     * Flyweight ❌
     * Proxy ❌
 

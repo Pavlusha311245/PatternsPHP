@@ -1,0 +1,19 @@
+{
+    "name": "pavlusha/patterns",
+    "description": "Learning project",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Pavlusha\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pavel Zavadski",
+            "email": "zavadskiy.pavel2002@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

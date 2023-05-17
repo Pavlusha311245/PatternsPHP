@@ -23,7 +23,7 @@ The project includes the following design patterns:
     * Proxy ❌
 
 3. **Behavioral Patterns**
-    * Chain of Responsibility ❌
+    * Chain of Responsibility ✅
     * Command ✅
     * Iterator ❌
     * Mediator ❌

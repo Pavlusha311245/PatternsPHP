@@ -7,32 +7,32 @@ This project is a collection of design patterns, examples on how to use them, an
 The project includes the following design patterns:
 
 1. **Creational Patterns**
-    * Singleton ✅
-    * Factory Method ✅
-    * Abstract Factory ❌
-    * Builder ✅
-    * Prototype ✅
+    * ✅ Singleton
+    * ✅ Factory Method
+    * ✅ Abstract Factory
+    * ✅ Builder
+    * ✅ Prototype
 
 2. **Structural Patterns**
-    * Adapter ✅
-    * Bridge ✅
-    * Composite ❌
-    * Decorator ✅
-    * Facade ✅
-    * Flyweight ❌
-    * Proxy ❌
+    * ✅ Adapter
+    * ✅ Bridge
+    * ❌ Composite
+    * ✅ Decorator
+    * ✅ Facade
+    * ❌ Flyweight
+    * ❌ Proxy
 
 3. **Behavioral Patterns**
-    * Chain of Responsibility ✅
-    * Command ✅
-    * Iterator ❌
-    * Mediator ❌
-    * Memento ❌
-    * Observer ✅
-    * State ❌
-    * Strategy ❌
-    * Template Method ❌
-    * Visitor ❌
+    * ✅ Chain of Responsibility
+    * ✅ Command
+    * ❌ Iterator
+    * ❌ Mediator
+    * ❌ Memento
+    * ✅ Observer
+    * ❌ State
+    * ❌ Strategy
+    * ❌ Template Method
+    * ❌ Visitor
 
 Each pattern is accompanied by PHP code and examples of how to use it.
 

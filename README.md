@@ -15,7 +15,7 @@ The project includes the following design patterns:
 
 2. **Structural Patterns**
     * Adapter ✅
-    * Bridge ❌
+    * Bridge ✅
     * Composite ❌
     * Decorator ✅
     * Facade ✅

@@ -29,7 +29,7 @@ The project includes the following design patterns:
     * ❌ Mediator
     * ❌ Memento
     * ✅ Observer
-    * ❌ State
+    * ✅ State
     * ❌ Strategy
     * ❌ Template Method
     * ✅ Visitor

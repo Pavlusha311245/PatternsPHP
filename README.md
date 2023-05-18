@@ -32,7 +32,7 @@ The project includes the following design patterns:
     * ❌ State
     * ❌ Strategy
     * ❌ Template Method
-    * ❌ Visitor
+    * ✅ Visitor
 
 Each pattern is accompanied by PHP code and examples of how to use it.
 

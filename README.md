@@ -30,7 +30,7 @@ The project includes the following design patterns:
     * ❌ Memento
     * ✅ Observer
     * ✅ State
-    * ❌ Strategy
+    * ✅ Strategy
     * ❌ Template Method
     * ✅ Visitor
 

@@ -9,6 +9,6 @@ class Airplane implements FlyObjectInterface
 
     public function fly()
     {
-        echo 'Shuttle start';
+        echo "Airplane start\n";
     }
 }

@@ -9,18 +9,20 @@ use Pavlusha\Command\Base\CommandInterface;
  */
 class Console
 {
-    protected CommandInterface $command;
+    protected array $commands;
 
     /**
-     * @param CommandInterface $command
+     * @param CommandInterface ...$commands
      */
-    public function setCommand(CommandInterface $command): void
+    public function setCommands(CommandInterface ...$commands): void
     {
-        $this->command = $command;
+        $this->commands = $commands;
     }
 
-    public function executeCommand()
+    public function executeCommands()
     {
-        $this->command->execute();
+        foreach ($this->commands as $command) {
+            $command->execute();
+        }
     }
 }

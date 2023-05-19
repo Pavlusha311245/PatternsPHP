@@ -9,7 +9,7 @@ class LibraryAdapter implements ClientDataInterface
 
     }
 
-    public function getData()
+    public function getData(): array
     {
         return json_decode($this->library->getRawData(), true);
     }

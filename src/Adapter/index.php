@@ -6,7 +6,7 @@ require '../../vendor/autoload.php';
 
 function main(ClientDataInterface $data)
 {
-    var_dump($data->getData());
+    print_r($data->getData());
 }
 
 $library = new Library();

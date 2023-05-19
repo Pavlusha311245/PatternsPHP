@@ -7,14 +7,11 @@ use Pavlusha\Command\Base\CommandInterface;
 /**
  * Concrete command
  */
-class ShowText implements CommandInterface
+class SaveCommand implements CommandInterface
 {
-    public function __construct(protected $params = null)
-    {
-    }
 
     public function execute()
     {
-        echo "Hello from ShowText command\n";
+        echo "Saved\n";
     }
 }

@@ -2,12 +2,14 @@
 
 namespace Pavlusha\Command;
 
+use Pavlusha\Command\Commands\SaveCommand;
 use Pavlusha\Command\Commands\ShowText;
 
 require '../../vendor/autoload.php';
 
 $showTextCommand = new ShowText();
+$saveCommand = new SaveCommand();
 
 $console = new Console();
-$console->setCommand($showTextCommand);
-$console->executeCommand();
+$console->setCommands($showTextCommand, $saveCommand);
+$console->executeCommands();

@@ -10,5 +10,5 @@ use Pavlusha\FactoryMethod\Factories\ShuttleFactory;
 $airplane = AirplaneFactory::create();
 $shuttle = ShuttleFactory::create();
 
-var_dump($airplane);
-var_dump($shuttle);
+$airplane->fly();
+$shuttle->fly();

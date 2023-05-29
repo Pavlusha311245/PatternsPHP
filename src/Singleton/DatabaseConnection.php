@@ -9,6 +9,6 @@ class DatabaseConnection extends Singleton
 {
     public function query($string): void
     {
-        echo 'Query: ' . $string;
+        echo 'Query: ' . $string . "\n";
     }
 }

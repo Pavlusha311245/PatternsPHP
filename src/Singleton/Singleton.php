@@ -21,13 +21,13 @@ class Singleton
      */
     public function __wakeup()
     {
-        throw new \Exception("Impossible to unserialize singleton");
+        throw new \Exception("Impossible to unserialize singleton\n");
     }
 
     public static function getInstance()
     {
         if (self::$instance === null) {
-            self::$instance = new self();
+            self::$instance = new static();
         }
 
         return self::$instance;
